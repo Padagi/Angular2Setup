@@ -21,8 +21,8 @@ Basic Angular 2 Setup for Visual Studio Code / Visual Studio 2017 (CSPROJ based)
 </ol>
 
 # Why the heck did you make this project?
-This is a standard template for Angular 2 in Visual Studio Code (or Visual Studio 2017) using the Visual Studio's RC3 tooling. Projects are now based on .csproj files instead of project.json.
+This is a standard template for Angular 2 in Visual Studio Code (or Visual Studio 2017) using the .Net Core SDK 1.0 RC3 tooling. Projects using the updated tools are now based on .csproj files instead of project.json files.
 
-In addition, Visual Studio Code supports a number of tasks. This project automatically has a task to run tsc (TypeScript compiler) when running the application in debug. This also watches for changes in TS files and updates JS files for the browser when changes are made.
+In addition, Visual Studio Code uses a Task Runner for building and other items. This project automatically has a task to run tsc (the TypeScript compiler) when running the application in debug. This also watches for changes in TS files and updates JS files in the browser automatically when code changes are made (TS is compiled into JS and then refreshing page shows the changes).
 
 Occasionally the task runs even after stopping, which prevents you from making certain changes. You can force-end the task easily in VS Code when prompted to stop the running tasks.
