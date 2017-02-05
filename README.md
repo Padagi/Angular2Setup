@@ -10,7 +10,7 @@ Basic Angular 2 Setup for Visual Studio Code / Visual Studio 2017 (CSPROJ based)
 <li><i>Recommended install of Bower</i>: <ul><li><b>npm install -g bower</b></li></ul></li>
 </ol>
 
-# Using This Project
+# Using This Project (with Windows Shortcuts)
 <ol>
 <li>Clone this project and open the folder Angular2Setup in Visual Studio Code.</li>
 <li>In VS Code open the Command Prompt using the <b>CTRL+`</b> shortcut.</li>
