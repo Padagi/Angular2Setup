@@ -13,7 +13,7 @@ Basic Angular 2 Setup for Visual Studio Code / Visual Studio 2017 (CSPROJ based)
 # Using This Project
 <ol>
 <li>Clone this project and open the folder Angular2Setup in Visual Studio Code.</li>
-<li>Right click Program.cs in the folder and select "Open in Command Prompt".</li>
+<li>In VS Code open the Command Prompt using the <b>CTRL+`</b> shortcut.</li>
 <li>Run the command <b>dotnet restore</b>.</li>
 <li>Run the command <b>npm install</b>.</li>
 <li>Build the project using the <b>Shift+B</b> shortcut.</li>
